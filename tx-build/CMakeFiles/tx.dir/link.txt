@@ -1,0 +1,1 @@
+msp430-gcc  -mmcu=msp430f2112 -g -O0 -Wall    CMakeFiles/tx.dir/uart.c.o CMakeFiles/tx.dir/main.c.o  -o tx -rdynamic 

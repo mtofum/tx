@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tofu/Documents/graduate_design/qtcreator/tx/main.c
+msp430.h
+/home/tofu/Documents/graduate_design/qtcreator/tx/msp430.h
+uart.h
+/home/tofu/Documents/graduate_design/qtcreator/tx/uart.h
+
+/home/tofu/Documents/graduate_design/qtcreator/tx/uart.c
+uart.h
+/home/tofu/Documents/graduate_design/qtcreator/tx/uart.h
+msp430.h
+/home/tofu/Documents/graduate_design/qtcreator/tx/msp430.h
+
+/home/tofu/Documents/graduate_design/qtcreator/tx/uart.h
+

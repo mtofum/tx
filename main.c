@@ -35,7 +35,7 @@ void TIM_init(void)
     TA1CCR0 = 60000 - 1;                         // PWM Period
     TA1CCTL1 |= CCIE;                       // TA0CCR1 set/reset
     TA1CCR1 = 600;
-    TA1CTL = TASSEL_1 + MC_1+ID_3+TAIE;    // ACLK, up mode
+    TA1CTL = TASSEL_1 + MC_1+ID_3 + TAIE;    // ACLK, up mode
     _EINT();
 }
 

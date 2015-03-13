@@ -18,8 +18,8 @@ void bc(void)
 
 void pwm_init(void)
 {
-    P1DIR |= BIT2+BIT3;                            // P1.2 and P1.3 output
-    P1SEL |= BIT2+BIT3;                            // P1.2 and P1.3 TA1/2 otions
+    P1DIR |= BIT2 + BIT3;                            // P1.2 and P1.3 output
+    P1SEL |= BIT2 + BIT3;                            // P1.2 and P1.3 TA1/2 otions
     TA0CTL|=TACLR;
     TA0CCR0 = 200 - 1;                         // PWM Period
     TA0CCTL1 = OUTMOD_3;                       // TA0CCR1 set/reset

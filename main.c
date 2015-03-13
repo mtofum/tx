@@ -13,7 +13,7 @@ void bc(void)
      for (i = 0xFF; i > 0; i--);             // Time for flag to set
    }
    while (IFG1 & OFIFG);                     // OSCFault flag still set?
-   BCSCTL2 |= SELM_3+SELS;                        // MCLK= LFXT1 SMCLK=LFXT1
+   BCSCTL2 |= SELM_3 + SELS;                        // MCLK= LFXT1 SMCLK=LFXT1
 }
 
 void pwm_init(void)
